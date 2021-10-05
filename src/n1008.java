@@ -9,5 +9,6 @@ public class n1008 {
    
     System.out.println(A/B);
     sc.close();
+    
   }
 }
