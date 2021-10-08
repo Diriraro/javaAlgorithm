@@ -16,3 +16,4 @@ public class n10869 {
     sc.close();
   }
 }
+
