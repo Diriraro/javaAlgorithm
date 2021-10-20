@@ -7,11 +7,18 @@ public class n2439 {
 
     int n = Integer.parseInt(br.readLine());
 
-    String[] k = new String[n];
+    String star = "*";
+    String space = " ";
 
-    for(int i=n-1; i>=0; i--){
-      System.out.println(k);
-      System.out.println("ing....");
+    for(int i=1; i<=n; i++){
+      for(int j=n; j>0; j--){
+        if(j <= i){
+          System.out.print(star);
+        } else {
+          System.out.print(space);
+        }
+      }
+      System.out.println();
     }
 
   }
